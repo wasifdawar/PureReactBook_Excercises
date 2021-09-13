@@ -1,0 +1,25 @@
+.envelop
+{ display:flex;
+  justify-content: space-between;
+  border: 1px solid;
+  height: 90vh;
+}
+
+.envelop .to-person
+{
+  margin: 15px;
+  padding-right: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.envelop .from-person
+{
+  
+  font-weight: bold;
+   display: flex;
+   align-items: center;
+   font-size: xx-large;
+}
+

@@ -1,0 +1,32 @@
+.main-body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.credit-card
+{
+  flex-direction: column;
+  font-weight: bold;
+  background-color: rgb(61, 114, 194);
+  color: aliceblue;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 600px;
+  height: 300px; 
+}
+
+.bank-name
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.validThru
+{
+display: flex;
+}
+
