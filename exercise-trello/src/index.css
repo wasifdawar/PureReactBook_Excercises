@@ -1,0 +1,47 @@
+.card-container {
+  border: 3px solid rgb(16, 56, 189);
+  width: 450px;
+  padding: 10px;
+  margin: 90px;
+  background-color: rgb(236, 232, 232);
+}
+
+.card-container .card-title {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(82, 73, 73);
+}
+
+.card-container .card-title svg {
+  width: 20px;
+}
+
+.card-container .card-title svg path {
+  fill: rgba(80, 73, 73, 0.938);
+}
+
+.card-container .card-data {
+  padding: 2px 3px 2px 3px;
+}
+.card-container .card-data .card-value {
+  margin-top: 15px;
+  border-radius: 7px;
+
+  padding: 15px 20px;
+  color: rgb(87, 81, 87);
+
+  background-color: white;
+}
+.card-container .card-data .card-value h2 {
+  margin: 0;
+}
+
+.card-container .place-holder {
+  margin-top: 15px;
+  border-radius: 7px;
+  padding: 15px 20px;
+  color: rgb(87, 81, 87);
+  font-size: 29px;
+  background-color: rgb(236, 232, 232);
+  border: none;
+}
